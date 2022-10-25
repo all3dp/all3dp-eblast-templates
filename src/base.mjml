@@ -1,14 +1,260 @@
 <mjml>
+  <mj-head>
+    <mj-title>BASE TEMPLATE</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Arial" ico-font-family="Arial" />
+
+      <mj-class name="content" padding="0" />
+      <mj-class name="content--white" background-color="#fff" />
+      <mj-class name="content--dark" background-color="#f0f2f5" />
+      <mj-class name="content__wrapper" vertical-align="middle" padding="0 15px" />
+      <mj-class name="content__text" align="center" font-size="10px" padding-top="0" color="#646464" line-height="14px" />
+
+      <mj-text padding="0" />
+      <mj-body background-color="#FAFAFA" width="600px" />
+    </mj-attributes>
+    <mj-style>
+      body {
+        -webkit-text-size-adjust: 100%;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .keypoint div span {
+        border-bottom: solid #f4b400 4px;
+        padding-top:5px;
+        padding-right:0;
+        padding-bottom: 2px;
+        padding-left:0;
+        color: #000;
+        font-weight:bold;
+        font-size: 18px;
+        text-decoration: none;
+      }
+      </mj-style>
+  </mj-head>
   <mj-body>
+    <mj-section full-width="full-width">
+      <mj-column vertical-align="middle" width="200px">
+        <mj-image width="100px" align="left" src="https://via.placeholder.com/100x32/50" alt="Logo" padding-bottom="0px" padding-top="0"></mj-image>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text align="center" font-size="11px" padding-bottom="0px" padding-top="0" color="#646464" align="center"><span style="white-space: nowrap;">Meet our 3rd generation of ACME Inc. stuff</span></mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text align="right" font-size="10px" padding-bottom="0px" padding-top="0" color="#646464"><a href="*|ARCHIVE|*" target="_blank" style="text-decoration: underline; color: inherit;">View in browser</a></mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="content" background-color="#ffffff" padding-bottom="15px">
+      <mj-column vertical-align="middle">
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="content" background-color="#ffffff">
+      <mj-column vertical-align="middle" mj-class="content__wrapper" border-radius="50px 50px 0px 0px" background-color="#f0f2f5">
+        <mj-text font-size="30px" font-weight="bold" align="center" color="#000" padding-top="20px">Say hello to the new ACME 3d</mj-text>
+        <mj-spacer height="5px" />
+      </mj-colomn>
+    </mj-section>
+
+
+    <mj-section mj-class="content" background-color="#ffffff">
+      <mj-column vertical-align="middle">
+        <mj-image width="600px" height="389px" padding="0" src="https://via.placeholder.com/600x389/f0f2f5" />
+        <mj-spacer height="20px" />
+      </mj-colomn>
+    </mj-section>
+
+
+    <mj-section mj-class="content" background-color="#ffffff" padding-bottom="25px" padding-left="15px" padding-right="15px">
+      <mj-column vertical-align="middle">
+        <mj-text line-height="16px" color="#000000" font-size="30px" font-weight="bold" align="center" padding-bottom="20px">
+          Sooooooooooooooo easy
+        </mj-text>
+
+        <mj-text line-height="18px" color="#646464" font-size="14px" align="center" css-class="keypoint">
+          <span>to use</span>&nbsp;&nbsp;
+          <span>to trust</span>&nbsp;&nbsp;
+          <span>to buy</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="content" background-color="#ffffff" padding-bottom="15px" padding-left="15px" padding-right="15px">
+      <mj-column vertical-align="middle">
+
+        <mj-text line-height="22px" color="#646464" font-size="14px" font-weight="bold" padding-bottom="25px">
+          Discover the new generation of <a href="#" target="_blank" style="color:inherit;">professional-grade 3D scanners:</a> ACME 3 and ACME 3.CAD.
+          <br>
+          Your 3D scanning experience will become more complete, balanced, and awesome than ever.
+        </mj-text>
+
+        <mj-text line-height="18px" color="#646464" font-size="13px">
+          ACME 3d scanners are easy to handle, featuring a revamped ergonomic design
+          unlike any other scanner on the market. ACME 3 is also equipped with an intuitive
+          multi-function touchscreen interface. Industry-first haptic user communication
+          utilizes vibration to simplify the generation of high-quality 3D scans.
+          Improved resolution and performance provide additional versatility, enabling users to
+          3D scan any type of object.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="content" background-color="#ffffff" padding-bottom="25px">
+      <mj-column vertical-align="middle">
+        <mj-button align="center" inner-padding="15px 30px" background-color="#f4b400" color="#fff" border-radius="5px" letter-spacing="1px" font-size="14px" font-weight="bold" href="https://mjml.io" target="_blank" padding-bottom="10px" padding-top="15px">SEE IT IN ACTION</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="content" background-color="#fff4e0" padding-bottom="25px">
+      <mj-group>
+        <mj-column padding="15px">
+          <mj-image width="249px" height="158px" padding="0" alt="productshot 1" src="https://via.placeholder.com/249x158/50" />
+        </mj-column>
+        <mj-column padding="15px">
+          <mj-text align="left" padding-top="10px" font-size="18px" font-weight="bold" color="#000000" padding-bottom="15px">
+            Slick LCD screen
+          </mj-text>
+          <mj-text align="left" font-size="13px" line-height="18px" color="#646464">
+            MJML is responsive by design on most-popular email clients, even Outlook.
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="content" background-color="#fff4e0" padding-bottom="25px">
+      <mj-group>
+        <mj-column padding="25px">
+          <mj-text align="left" padding-top="10px" font-size="18px" font-weight="bold" color="#000000" padding-bottom="15px">
+            Ultra-ergonomic handle
+          </mj-text>
+          <mj-text align="left" font-size="13px" line-height="18px" color="#646464">
+            ACME 3's unique multi-grip triangulated handle has been designed to be comfortable in most common 3D scanning positions.
+          </mj-text>
+        </mj-column>
+        <mj-column padding="15px">
+          <mj-image width="249px" height="158px" padding="0" alt="productshot 2" src="https://via.placeholder.com/249x158/50" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="content" background-color="#fff4e0">
+      <mj-column mj-class="content__wrapper" border-radius="50px 50px 0px 0px" background-color="#fff">
+        <mj-text height="50px">&nbsp;</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="content content--dark">
+      <mj-column mj-class="content__wrapper" border-radius="0px 0px 50px 50px" background-color="#fff">
+
+        <mj-text color="#000" font-size="28px" align="center" font-weight="bold">You'll love it!</mj-text>
+
+        <mj-spacer height="30px" />
+
+        <mj-text color="#000" font-size="18px" align="left" font-weight="bold" padding-left="20px">
+          <span style="font-size: 30px; color: #646464">✓</span>
+          V.I.peel Warranty
+        </mj-text>
+
+        <mj-text color="#646464" font-size="14px" align="left" padding-left="50px" padding-top="15px" line-height="16px">
+          Not only do you get a 1-year warranty on parts and labor,
+          you can also become a member
+          of our exclusive VI.peel club for a bunch of extras!
+        </mj-text>
+
+        <mj-spacer height="20px" />
+
+        <mj-text color="#000" font-size="18px" align="left" font-weight="bold" padding-left="20px">
+          <span style="font-size: 30px; color: #646464">✓</span>
+          <img width="39px" height="20px" alt="flag" src="https://via.placeholder.com/39x20/50" />
+          Developed and manufactured in a Country
+        </mj-text>
+
+        <mj-text color="#646464" font-size="14px" align="left" padding-left="50px" padding-top="15px" line-height="16px">
+          Gain peace of mind knowing that your investment features robust
+          components, quality craftsmanship
+          and is supported by a global team of engineers and technicians.
+        </mj-text>
+        <mj-spacer height="50px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="content content--dark">
+      <mj-column mj-class="content__wrapper">
+        <mj-image width="120px" height="38px" align="center" src="https://via.placeholder.com/120x38/50" alt="Logo" padding-bottom="20px" padding-top="20px" padding-top="0"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="content content--dark">
+      <mj-column mj-class="content__wrapper">
+        <mj-text mj-class="content__text">
+          Schleißheimer Str. 39, 80797 Munich, Germany
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="content content--dark">
+      <mj-column mj-class="content__wrapper">
+        <mj-social font-size="12px" icon-size="32px" mode="horizontal" padding="5px 10px">
+          <mj-social-element name="facebook" href="https://example.com/" target="_blank" alt="facebook" background-color="transparent" src="https://sf-asset-manager.s3.amazonaws.com/96363/590/4358.png"></mj-social-element>
+          <mj-social-element name="instagram" href="https://example.com/" target="_blank" alt="instagram" background-color="transparent" src="https://sf-asset-manager.s3.amazonaws.com/96363/590/4359.png"></mj-social-element>
+          <mj-social-element name="linkedin" href="https://example.com/" target="_blank" alt="linkedin" background-color="transparent" src="https://sf-asset-manager.s3.amazonaws.com/96363/590/4360.png"></mj-social-element>
+          <mj-social-element name="youtube" href="https://example.com/" target="_blank" alt="youtube" background-color="transparent" src="https://sf-asset-manager.s3.amazonaws.com/96363/590/4362.png"></mj-social-element>
+          <mj-social-element name="sketchfab" href="https://example.com/" target="_blank" alt="sketchfab" background-color="transparent" src="https://sf-asset-manager.s3.amazonaws.com/96363/590/4361.png"></mj-social-element>
+          <mj-social-element name="twitter" href="https://example.com/" target="_blank" alt="twitter" background-color="transparent" src="https://sf-asset-manager.s3.amazonaws.com/96363/590/4363.png"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="content content--dark" padding="0">
+      <mj-column padding="0">
+        <mj-divider border-width="2px" padding="10px 15px" border-style="solid" border-color="lightgrey" width="100%" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="content content--dark">
+      <mj-column mj-class="content__wrapper">
+        <mj-text mj-class="content__text">
+          ACME inc. All rights reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="content content--dark" padding="0">
+      <mj-column padding="0">
+        <mj-divider border-width="2px" padding="10px 15px" border-style="solid" border-color="lightgrey" width="100%" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="content content--dark">
+      <mj-column mj-class="content__wrapper">
+        <mj-text mj-class="content__text">
+          This is a commercial email to promote the products or services of Creaform Inc.,
+          brought to you by All3DP. If you'd like to change how you receive these emails you
+          can <a href="*|UNSUB|*" target="_blank" style="color: #000; text-decoration: underline;">unsubscribe from this list.</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="content content--dark" padding-top="10px" padding-bottom="10px">
+      <mj-column vertical-align="middle" mj-class="content__wrapper">
+        <mj-text mj-class="content__text">
+          <strong>Our address is:</strong><br>
+          All3DP GmbH<br>
+          Ridlerstr. 31a<br>
+          Munich 80339<br>
+          Germany<br>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
     <mj-section>
       <mj-column>
-
-        <mj-image width="100px" src="/assets/img/logo-small.png"></mj-image>
-
-        <mj-divider border-color="#F45E43"></mj-divider>
-
-        <mj-text font-size="20px" color="#F45E43" font-family="helvetica">Hello World</mj-text>
-
+        <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
   </mj-body>
