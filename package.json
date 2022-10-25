@@ -1,0 +1,42 @@
+{
+  "name": "all3dp-newsletter-templates",
+  "version": "1.0.0",
+  "author": "All3DP GmbH",
+  "homepage": "https://all3dp.com",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/all3dp/all3dp-newsletter-templates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/all3dp/all3dp-newsletter-templates/issues"
+  },
+  "contributors": [
+    {
+      "name" : "Alexander Pirsig",
+      "email" : "alex@vicoli.de",
+      "url" : "https://vicoli.de"
+    }
+  ],
+  "scripts": {
+    "clean": "rimraf .output && mkdirp .output",
+    "build": "yarn clean && yarn run build:base",
+    "build:base": "mjml ./src/base.mjml -o .output/base-email.html"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": "6.14",
+    "yarn": "1"
+  },
+  "volta": {
+    "node": "16.17.0",
+    "yarn": "1.22.19"
+  },
+  "dependencies": {
+    "mjml": "^4.13.0"
+  },
+  "devDependencies": {
+    "mkdirp": "^1.0.4",
+    "rimraf": "^3.0.2"
+  }
+}
