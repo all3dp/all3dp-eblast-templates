@@ -1,6 +1,6 @@
-# All3DP Newsletter Templates
+# All3DP Eblast Templates
 
-This repository contains example templates written in MJML to create mailchimp complient newsletter templates.
+This repository contains example templates written in MJML to create mailchimp complient templates.
 
 ## Prerequisits
 
@@ -17,7 +17,7 @@ Execute "`yarn add`" to install the nessesary nodejs modules.
 
 ## Scripts:
 
-The newsletter template are located in the "`/src`-folder". To build all templates execute "`yarn build`". The output of the buildprocess goes to "`/.output`".
+The Eblast template are located in the "`/src`-folder". To build all templates execute "`yarn build`". The output of the buildprocess goes to "`/.output`".
 
 - use `yarn dev` to enter MJML watch mode. Template output goes to `/.output`
 - use `yarn test` to validate your templates
@@ -27,7 +27,7 @@ The newsletter template are located in the "`/src`-folder". To build all templat
 
 Templates are based on MJML syntax, see https://mjml.io for details.
 
-*  `basic.mjml` - contains a basic newsletter.
+*  `basic.mjml` - contains a basic eblast.
 
 ## License
 
