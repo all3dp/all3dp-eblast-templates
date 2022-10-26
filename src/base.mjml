@@ -41,7 +41,9 @@
         <mj-text align="center" font-size="11px" padding-bottom="0px" padding-top="0" color="#646464" align="center"><span style="white-space: nowrap;">Meet our 3rd generation of ACME Inc. stuff</span></mj-text>
       </mj-column>
       <mj-column vertical-align="middle">
+        <!-- *|IFNOT:ARCHIVE_PAGE|* -->
         <mj-text align="right" font-size="10px" padding-bottom="0px" padding-top="0" color="#646464"><a href="*|ARCHIVE|*" target="_blank" style="text-decoration: underline; color: inherit;">View in browser</a></mj-text>
+        <!-- *|END:IF|* -->
       </mj-column>
     </mj-section>
 
@@ -218,7 +220,7 @@
     <mj-section mj-class="content content--dark">
       <mj-column mj-class="content__wrapper">
         <mj-text mj-class="content__text">
-          ACME inc. All rights reserved.
+          Copyright &copy; *|CURRENT_YEAR|* *|USER:COMPANY|*, All rights reserved.
         </mj-text>
       </mj-column>
     </mj-section>
@@ -234,7 +236,7 @@
       <mj-column mj-class="content__wrapper">
         <mj-text mj-class="content__text">
           This is a commercial email to promote the products or services of Creaform Inc.,
-          brought to you by All3DP. If you'd like to change how you receive these emails you
+          brought to you by *|USER:COMPANY|*. If you'd like to change how you receive these emails you
           can <a href="*|UNSUB|*" target="_blank" style="color: #000; text-decoration: underline;">unsubscribe from this list.</a>
         </mj-text>
       </mj-column>
