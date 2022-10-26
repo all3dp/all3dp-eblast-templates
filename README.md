@@ -1,5 +1,7 @@
 # All3DP Newsletter Templates
 
+This repository contains example templates written in MJML to create mailchimp complient newsletter templates.
+
 ## Prerequisits
 
 * NodeJS >= 16
