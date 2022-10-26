@@ -15,6 +15,7 @@
     </mj-attributes>
     <mj-style>
       body {
+        min-width: 600px;
         -webkit-text-size-adjust: 100%;
         -webkit-font-smoothing: antialiased;
       }
@@ -33,16 +34,16 @@
       </mj-style>
   </mj-head>
   <mj-body>
-    <mj-section full-width="full-width">
-      <mj-column vertical-align="middle" width="200px">
-        <mj-image width="100px" align="left" src="https://via.placeholder.com/100x32/50" alt="Logo" padding-bottom="0px" padding-top="0"></mj-image>
+    <mj-section>
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" align="left" src="https://via.placeholder.com/100x32/50" alt="Logo" padding-bottom="0px" padding-left="20px" padding-top="0"></mj-image>
       </mj-column>
       <mj-column vertical-align="middle">
         <mj-text align="center" font-size="11px" padding-bottom="0px" padding-top="0" color="#646464" align="center"><span style="white-space: nowrap;">Meet our 3rd generation of ACME Inc. stuff</span></mj-text>
       </mj-column>
       <mj-column vertical-align="middle">
         <!-- *|IFNOT:ARCHIVE_PAGE|* -->
-        <mj-text align="right" font-size="10px" padding-bottom="0px" padding-top="0" color="#646464"><a href="*|ARCHIVE|*" target="_blank" style="text-decoration: underline; color: inherit;">View in browser</a></mj-text>
+        <mj-text align="right" font-size="10px" padding-bottom="0" padding-right="20px" padding-top="0" color="#646464"><a href="*|ARCHIVE|*" target="_blank" style="text-decoration: underline; color: inherit;">View in browser</a></mj-text>
         <!-- *|END:IF|* -->
       </mj-column>
     </mj-section>
@@ -71,7 +72,7 @@
 
     <mj-section mj-class="content" background-color="#ffffff" padding-bottom="25px" padding-left="15px" padding-right="15px">
       <mj-column vertical-align="middle">
-        <mj-text line-height="16px" color="#000000" font-size="30px" font-weight="bold" align="center" padding-bottom="20px">
+        <mj-text line-height="30px" color="#000000" font-size="30px" font-weight="bold" align="center" padding-bottom="20px">
           Sooooooooooooooo easy
         </mj-text>
 
@@ -246,10 +247,7 @@
       <mj-column vertical-align="middle" mj-class="content__wrapper">
         <mj-text mj-class="content__text">
           <strong>Our address is:</strong><br>
-          All3DP GmbH<br>
-          Ridlerstr. 31a<br>
-          Munich 80339<br>
-          Germany<br>
+          *|USER:ADDRESS_HTML|*
         </mj-text>
       </mj-column>
     </mj-section>
