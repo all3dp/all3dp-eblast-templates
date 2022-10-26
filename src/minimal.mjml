@@ -13,14 +13,27 @@
       <mj-text padding="0" />
       <mj-body background-color="#FAFAFA" width="600px" />
     </mj-attributes>
+
+    <mj-html-attributes>
+
+      <mj-selector path=".nav_logo img">
+        <mj-html-attribute name="mc:edit">nav_logo</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".nav_claim div span">
+        <mj-html-attribute name="mc:edit">nav_claim</mj-html-attribute>
+      </mj-selector>
+
+    </mj-html-attributes>
   </mj-head>
   <mj-body>
+
     <mj-section>
       <mj-column vertical-align="middle">
-        <mj-image width="100px" align="left" src="https://via.placeholder.com/100x32/50" alt="Logo" padding-bottom="0px" padding-left="20px" padding-top="0"></mj-image>
+        <mj-image width="100px" align="left" src="https://via.placeholder.com/100x32/50" css-class="nav_logo" alt="Logo" padding-bottom="0px" padding-left="20px" padding-top="0"></mj-image>
       </mj-column>
       <mj-column vertical-align="middle">
-        <mj-text align="center" font-size="11px" padding-bottom="0px" padding-top="0" color="#646464" align="center"><span style="white-space: nowrap;">Meet our 3rd generation of ACME Inc. stuff</span></mj-text>
+        <mj-text align="center" font-size="11px" padding-bottom="0px" padding-top="0" color="#646464" align="center" css-class="nav_claim"><span style="white-space: nowrap;">Meet our 3rd generation of ACME Inc. stuff</span></mj-text>
       </mj-column>
       <mj-column vertical-align="middle">
         <!-- *|IFNOT:ARCHIVE_PAGE|* -->
