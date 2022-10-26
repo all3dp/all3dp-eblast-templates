@@ -7,12 +7,19 @@
 
 Execute "`yarn add`" to install the nessesary nodejs modules.
 
+## Doc`s:
+
+* [MJML template syntax](https://documentation.mjml.io/)
+* [Mailchimp merge tags cheat sheet](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/)
+
 ## Scripts:
 
 The newsletter template are located in the "`/src`-folder". To build all templates execute "`yarn build`". The output of the buildprocess goes to "`/.output`".
 
+### Templates:
 
-**Templates**
+Templates are based on MJML syntax, see https://mjml.io for details.
+
 *  `basic.mjml` - contains a basic newsletter.
 
 ## License
@@ -39,4 +46,3 @@ The newsletter template are located in the "`/src`-folder". To build all templat
   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
   THE SOFTWARE.
-
