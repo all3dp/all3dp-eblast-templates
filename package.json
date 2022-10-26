@@ -21,8 +21,9 @@
   ],
   "scripts": {
     "clean": "rimraf .output && mkdirp .output",
-    "build": "yarn clean && yarn run build:base",
-    "build:base": "mjml ./src/base.mjml -o .output/base-email.html"
+    "test": "mjml --validate ./src/*.mjml",
+    "build": "yarn clean && mjml ./src/*.mjml -o ./.output/",
+    "dev": "yarn clean && mjml -w ./src/*.mjml -o ./.output/"
   },
   "engines": {
     "node": ">=16.0.0",
