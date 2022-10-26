@@ -32,7 +32,7 @@
     <mj-section full-width>
       <mj-column padding="0">
         <mj-text>
-          <div mc:edit="preheader_leftcol_content">INSERT TEMPLATE HERE</div>
+          <div mc:edit="markup">INSERT TEMPLATE HERE</div>
         </mj-text>
       </mj-column>
     </mj-section>
