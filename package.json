@@ -1,5 +1,5 @@
 {
-  "name": "all3dp-newsletter-templates",
+  "name": "all3dp-eblast-templates",
   "version": "1.0.0",
   "author": "All3DP GmbH",
   "homepage": "https://all3dp.com",
@@ -7,10 +7,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/all3dp/all3dp-newsletter-templates.git"
+    "url": "https://github.com/all3dp/all3dp-eblast-templates.git"
   },
   "bugs": {
-    "url": "https://github.com/all3dp/all3dp-newsletter-templates/issues"
+    "url": "https://github.com/all3dp/all3dp-eblast-templates/issues"
   },
   "contributors": [
     {
