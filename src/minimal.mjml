@@ -1,0 +1,71 @@
+<mjml>
+  <mj-head>
+    <mj-title>*|MC:SUBJECT|*</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Arial" ico-font-family="Arial" />
+
+      <mj-class name="content" padding="0" />
+      <mj-class name="content--white" background-color="#fff" />
+      <mj-class name="content--dark" background-color="#f0f2f5" />
+      <mj-class name="content__wrapper" vertical-align="middle" padding="0 15px" />
+      <mj-class name="content__text" align="center" font-size="10px" padding-top="0" color="#646464" line-height="14px" />
+
+      <mj-text padding="0" />
+      <mj-body background-color="#FAFAFA" width="600px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" align="left" src="https://via.placeholder.com/100x32/50" alt="Logo" padding-bottom="0px" padding-left="20px" padding-top="0"></mj-image>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text align="center" font-size="11px" padding-bottom="0px" padding-top="0" color="#646464" align="center"><span style="white-space: nowrap;">Meet our 3rd generation of ACME Inc. stuff</span></mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+        <mj-text align="right" font-size="10px" padding-bottom="0" padding-right="20px" padding-top="0" color="#646464"><a href="*|ARCHIVE|*" target="_blank" style="text-decoration: underline; color: inherit;">View in browser</a></mj-text>
+        <!-- *|END:IF|* -->
+      </mj-column>
+    </mj-section>
+
+    <mj-section full-width>
+      <mj-column padding="0">
+        <mj-text>
+          <div mc:edit="preheader_leftcol_content">INSERT TEMPLATE HERE</div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="content content--dark" padding="0">
+      <mj-column padding="0">
+        <mj-divider border-width="2px" padding="10px 15px" border-style="solid" border-color="lightgrey" width="100%" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="content content--dark">
+      <mj-column mj-class="content__wrapper">
+        <mj-text mj-class="content__text">
+          This is a commercial email to promote the products or services of Creaform Inc.,
+          brought to you by *|USER:COMPANY|*. If you'd like to change how you receive these emails you
+          can <a href="*|UNSUB|*" target="_blank" style="color: #000; text-decoration: underline;">unsubscribe from this list.</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="content content--dark" padding-top="10px" padding-bottom="10px">
+      <mj-column vertical-align="middle" mj-class="content__wrapper">
+        <mj-text mj-class="content__text">
+          <strong>Our address is:</strong><br>
+          *|USER:ADDRESS_HTML|*
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
