@@ -4,6 +4,7 @@
 
 * NodeJS >= 16
 * Yarn 1.x
+* *Recommended:* [Visual Studio Code Extention for MJML](https://marketplace.visualstudio.com/items?itemName=mjmlio.vscode-mjml)
 
 Execute "`yarn add`" to install the nessesary nodejs modules.
 
