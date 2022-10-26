@@ -4,6 +4,7 @@
   "author": "All3DP GmbH",
   "homepage": "https://all3dp.com",
   "private": true,
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/all3dp/all3dp-newsletter-templates.git"
