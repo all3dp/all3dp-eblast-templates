@@ -13,6 +13,99 @@
       <mj-text padding="0" />
       <mj-body background-color="#FAFAFA" width="600px" />
     </mj-attributes>
+
+    <mj-html-attributes>
+
+      <mj-selector path=".nav_logo img">
+        <mj-html-attribute name="mc:edit">nav_logo</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".nav_claim div span">
+        <mj-html-attribute name="mc:edit">nav_claim</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".hero_headline div">
+        <mj-html-attribute name="mc:edit">hero_headline</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".hero_image img">
+        <mj-html-attribute name="mc:edit">hero_image</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".desc_headline div">
+        <mj-html-attribute name="mc:edit">desc_headline</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".desc_keypoints div">
+        <mj-html-attribute name="mc:edit">desc_keypoints</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".desc_intro div">
+        <mj-html-attribute name="mc:edit">desc_intro</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".desc_content div">
+        <mj-html-attribute name="mc:edit">desc_content</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".cta_button td">
+        <mj-html-attribute name="mc:edit">cta_button</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".details_headline_1 div">
+        <mj-html-attribute name="mc:edit">details_headline_1</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".details_content_1 div">
+        <mj-html-attribute name="mc:edit">details_content_1</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".details_image_1 img">
+        <mj-html-attribute name="mc:edit">details_image_1</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".details_headline_2 div">
+        <mj-html-attribute name="mc:edit">details_headline_2</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".details_content_2 div">
+        <mj-html-attribute name="mc:edit">details_content_2</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".details_image_2 img">
+        <mj-html-attribute name="mc:edit">details_image_2</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".footer_logo img">
+        <mj-html-attribute name="mc:edit">footer_logo</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".social_claim div">
+        <mj-html-attribute name="mc:edit">social_claim</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".features_headline div">
+        <mj-html-attribute name="mc:edit">features_headline</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".features_subline_1 div">
+        <mj-html-attribute name="mc:edit">features_subline_1</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".features_content_1 div">
+        <mj-html-attribute name="mc:edit">features_content_1</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".features_subline_2 div">
+        <mj-html-attribute name="mc:edit">features_subline_2</mj-html-attribute>
+      </mj-selector>
+
+      <mj-selector path=".features_content_2 div">
+        <mj-html-attribute name="mc:edit">features_content_2</mj-html-attribute>
+      </mj-selector>
+
+    </mj-html-attributes>
+
     <mj-style>
       body {
         min-width: 600px;
@@ -20,7 +113,7 @@
         -webkit-font-smoothing: antialiased;
       }
 
-      .keypoint div span {
+      .desc_keypoints div span {
         border-bottom: solid #f4b400 4px;
         padding-top:5px;
         padding-right:0;
@@ -36,10 +129,10 @@
   <mj-body>
     <mj-section>
       <mj-column vertical-align="middle">
-        <mj-image width="100px" align="left" src="https://via.placeholder.com/100x32/50" alt="Logo" padding-bottom="0px" padding-left="20px" padding-top="0"></mj-image>
+        <mj-image width="100px" align="left" src="https://via.placeholder.com/100x32/50" css-class="nav_logo" alt="Logo" padding-bottom="0px" padding-left="20px" padding-top="0"></mj-image>
       </mj-column>
       <mj-column vertical-align="middle">
-        <mj-text align="center" font-size="11px" padding-bottom="0px" padding-top="0" color="#646464" align="center"><span style="white-space: nowrap;">Meet our 3rd generation of ACME Inc. stuff</span></mj-text>
+        <mj-text align="center" font-size="11px" padding-bottom="0px" padding-top="0" color="#646464" align="center" css-class="nav_claim"><span style="white-space: nowrap;">Meet our 3rd generation of ACME Inc. stuff</span></mj-text>
       </mj-column>
       <mj-column vertical-align="middle">
         <!-- *|IFNOT:ARCHIVE_PAGE|* -->
@@ -56,7 +149,7 @@
 
     <mj-section mj-class="content" background-color="#ffffff">
       <mj-column vertical-align="middle" mj-class="content__wrapper" border-radius="50px 50px 0px 0px" background-color="#f0f2f5">
-        <mj-text font-size="30px" font-weight="bold" align="center" color="#000" padding-top="20px">Say hello to the new ACME 3d</mj-text>
+        <mj-text font-size="30px" font-weight="bold" align="center" color="#000" padding-top="20px" css-class="hero_headline">Say hello to the new ACME 3d</mj-text>
         <mj-spacer height="5px" />
       </mj-colomn>
     </mj-section>
@@ -64,7 +157,7 @@
 
     <mj-section mj-class="content" background-color="#ffffff">
       <mj-column vertical-align="middle">
-        <mj-image width="600px" height="389px" padding="0" src="https://via.placeholder.com/600x389/f0f2f5" />
+        <mj-image width="600px" height="389px" padding="0" src="https://via.placeholder.com/600x389/f0f2f5" css-class="hero_image" alt="hero" />
         <mj-spacer height="20px" />
       </mj-colomn>
     </mj-section>
@@ -72,11 +165,11 @@
 
     <mj-section mj-class="content" background-color="#ffffff" padding-bottom="25px" padding-left="15px" padding-right="15px">
       <mj-column vertical-align="middle">
-        <mj-text line-height="30px" color="#000000" font-size="30px" font-weight="bold" align="center" padding-bottom="20px">
+        <mj-text line-height="30px" color="#000000" font-size="30px" font-weight="bold" align="center" padding-bottom="20px" css-class="desc_headline">
           Sooooooooooooooo easy
         </mj-text>
 
-        <mj-text line-height="18px" color="#646464" font-size="14px" align="center" css-class="keypoint">
+        <mj-text line-height="18px" color="#646464" font-size="14px" align="center" css-class="desc_keypoints">
           <span>to use</span>&nbsp;&nbsp;
           <span>to trust</span>&nbsp;&nbsp;
           <span>to buy</span>
@@ -87,19 +180,18 @@
     <mj-section mj-class="content" background-color="#ffffff" padding-bottom="15px" padding-left="15px" padding-right="15px">
       <mj-column vertical-align="middle">
 
-        <mj-text line-height="22px" color="#646464" font-size="14px" font-weight="bold" padding-bottom="25px">
-          Discover the new generation of <a href="#" target="_blank" style="color:inherit;">professional-grade 3D scanners:</a> ACME 3 and ACME 3.CAD.
+        <mj-text line-height="22px" color="#646464" font-size="14px" font-weight="bold" padding-bottom="25px" css-class="desc_intro">
+          Fingerstache kogi tote bag, pitchfork raw <a href="#" target="_blank" style="color:inherit;">bodega boys stumptown la croix</a> tote bag cold-pressed viral small batch sriracha.
           <br>
-          Your 3D scanning experience will become more complete, balanced, and awesome than ever.
+          Chambray hoodie swag kitsch cloud bread gastropub crucifix.
         </mj-text>
 
-        <mj-text line-height="18px" color="#646464" font-size="13px">
-          ACME 3d scanners are easy to handle, featuring a revamped ergonomic design
-          unlike any other scanner on the market. ACME 3 is also equipped with an intuitive
-          multi-function touchscreen interface. Industry-first haptic user communication
-          utilizes vibration to simplify the generation of high-quality 3D scans.
-          Improved resolution and performance provide additional versatility, enabling users to
-          3D scan any type of object.
+        <mj-text line-height="18px" color="#646464" font-size="13px" css-class="desc_content">
+          Literally shoreditch organic cold-pressed chicharrones green juice typewriter vexillologist ennui health
+          goth man bun waistcoat cronut lumbersexual. Pitchfork unicorn kickstarter letterpress pug sartorial
+          VHS gentrify PBR&B polaroid fixie. Letterpress small batch literally asymmetrical. Yes plz Brooklyn vegan,
+          flannel plaid poutine hot chicken waistcoat. Truffaut paleo mlkshk ramps green juice skateboard kickstarter.
+          Jianbing blog enamel pin you probably haven't heard of them art party, succulents ascot.
         </mj-text>
       </mj-column>
     </mj-section>
@@ -107,21 +199,21 @@
 
     <mj-section mj-class="content" background-color="#ffffff" padding-bottom="25px">
       <mj-column vertical-align="middle">
-        <mj-button align="center" inner-padding="15px 30px" background-color="#f4b400" color="#fff" border-radius="5px" letter-spacing="1px" font-size="14px" font-weight="bold" href="https://mjml.io" target="_blank" padding-bottom="10px" padding-top="15px">SEE IT IN ACTION</mj-button>
+        <mj-button css-class="cta_button" align="center" inner-padding="15px 30px" background-color="#f4b400" color="#fff" border-radius="5px" letter-spacing="1px" font-size="14px" font-weight="bold" href="https://mjml.io" target="_blank" padding-bottom="10px" padding-top="15px">SEE IT IN ACTION</mj-button>
       </mj-column>
     </mj-section>
 
     <mj-section mj-class="content" background-color="#fff4e0" padding-bottom="25px">
       <mj-group>
         <mj-column padding="15px">
-          <mj-image width="249px" height="158px" padding="0" alt="productshot 1" src="https://via.placeholder.com/249x158/50" />
+          <mj-image width="249px" height="158px" padding="0" alt="productshot 1" src="https://via.placeholder.com/249x158/50" css-class="details_image_1" />
         </mj-column>
         <mj-column padding="15px">
-          <mj-text align="left" padding-top="10px" font-size="18px" font-weight="bold" color="#000000" padding-bottom="15px">
-            Slick LCD screen
+          <mj-text align="left" padding-top="10px" font-size="18px" font-weight="bold" color="#000000" padding-bottom="15px" css-class="details_headline_1">
+            Hella 3 wolf moon bushwick kogi
           </mj-text>
-          <mj-text align="left" font-size="13px" line-height="18px" color="#646464">
-            MJML is responsive by design on most-popular email clients, even Outlook.
+          <mj-text align="left" font-size="13px" line-height="18px" color="#646464" css-class="details_content_1">
+            Tousled ethical shoreditch scenester vegan venmo readymade small batch. Meditation semiotics big mood sartorial farm-to-table chartreuse seitan crucifix wolf.
           </mj-text>
         </mj-column>
       </mj-group>
@@ -130,15 +222,15 @@
     <mj-section mj-class="content" background-color="#fff4e0" padding-bottom="25px">
       <mj-group>
         <mj-column padding="25px">
-          <mj-text align="left" padding-top="10px" font-size="18px" font-weight="bold" color="#000000" padding-bottom="15px">
-            Ultra-ergonomic handle
+          <mj-text align="left" padding-top="10px" font-size="18px" font-weight="bold" color="#000000" padding-bottom="15px" css-class="details_headline_2">
+            Tote bag chia four dollar
           </mj-text>
-          <mj-text align="left" font-size="13px" line-height="18px" color="#646464">
-            ACME 3's unique multi-grip triangulated handle has been designed to be comfortable in most common 3D scanning positions.
+          <mj-text align="left" font-size="13px" line-height="18px" color="#646464" css-class="details_content_2">
+            Crucifix big mood dreamcatcher aesthetic, cray prism cronut kogi. Fixie tumeric 90's, man braid retro post-ironic single-origin coffee tonx migas.
           </mj-text>
         </mj-column>
         <mj-column padding="15px">
-          <mj-image width="249px" height="158px" padding="0" alt="productshot 2" src="https://via.placeholder.com/249x158/50" />
+          <mj-image width="249px" height="158px" padding="0" alt="productshot 2" src="https://via.placeholder.com/249x158/50" css-class="details_image_2" />
         </mj-column>
       </mj-group>
     </mj-section>
@@ -152,33 +244,32 @@
     <mj-section mj-class="content content--dark">
       <mj-column mj-class="content__wrapper" border-radius="0px 0px 50px 50px" background-color="#fff">
 
-        <mj-text color="#000" font-size="28px" align="center" font-weight="bold">You'll love it!</mj-text>
+        <mj-text color="#000" font-size="28px" align="center" font-weight="bold" css-class="features_headline">Freegan roof party!</mj-text>
 
         <mj-spacer height="30px" />
 
-        <mj-text color="#000" font-size="18px" align="left" font-weight="bold" padding-left="20px">
+        <mj-text color="#000" font-size="18px" align="left" font-weight="bold" padding-left="20px" css-class="features_subline_1">
           <span style="font-size: 30px; color: #646464">✓</span>
-          V.I.peel Warranty
+          Same messenger bag seitan.
         </mj-text>
 
-        <mj-text color="#646464" font-size="14px" align="left" padding-left="50px" padding-top="15px" line-height="16px">
-          Not only do you get a 1-year warranty on parts and labor,
-          you can also become a member
-          of our exclusive VI.peel club for a bunch of extras!
+        <mj-text color="#646464" font-size="14px" align="left" padding-left="50px" padding-top="15px" line-height="16px" css-class="features_content_1">
+          Vice fixie helvetica, beard wolf prism knausgaard. Plaid cliche DIY pork belly, photo booth ramps pabst bruh
+          hammock tattooed gentrify salvia selvage praxis.
+          Bushwick sartorial vaporware quinoa mixtape, 3 wolf moon before they sold out flexitarian.
         </mj-text>
 
         <mj-spacer height="20px" />
 
-        <mj-text color="#000" font-size="18px" align="left" font-weight="bold" padding-left="20px">
+        <mj-text color="#000" font-size="18px" align="left" font-weight="bold" padding-left="20px" css-class="features_subline_2">
           <span style="font-size: 30px; color: #646464">✓</span>
           <img width="39px" height="20px" alt="flag" src="https://via.placeholder.com/39x20/50" />
-          Developed and manufactured in a Country
+          Organic XOXO praxis normcore air plant.
         </mj-text>
 
-        <mj-text color="#646464" font-size="14px" align="left" padding-left="50px" padding-top="15px" line-height="16px">
-          Gain peace of mind knowing that your investment features robust
-          components, quality craftsmanship
-          and is supported by a global team of engineers and technicians.
+        <mj-text color="#646464" font-size="14px" align="left" padding-left="50px" padding-top="15px" line-height="16px" css-class="features_content_2">
+          Selfies fit fashion axe organic schlitz, chicharrones disrupt seitan. Fanny pack selfies helvetica fixie bruh sriracha.
+          Artisan literally art party, vegan meh plaid church-key gluten-free distillery. Biodiesel ennui williamsburg narwhal hell of health.
         </mj-text>
         <mj-spacer height="50px" />
       </mj-column>
@@ -186,14 +277,14 @@
 
     <mj-section mj-class="content content--dark">
       <mj-column mj-class="content__wrapper">
-        <mj-image width="120px" height="38px" align="center" src="https://via.placeholder.com/120x38/50" alt="Logo" padding-bottom="20px" padding-top="20px" padding-top="0"></mj-image>
+        <mj-image width="120px" height="38px" align="center" src="https://via.placeholder.com/120x38/50" alt="Logo" padding-bottom="20px" padding-top="20px" padding-top="0" css-class="footer_logo"></mj-image>
       </mj-column>
     </mj-section>
 
     <mj-section mj-class="content content--dark">
       <mj-column mj-class="content__wrapper">
-        <mj-text mj-class="content__text">
-          Schleißheimer Str. 39, 80797 Munich, Germany
+        <mj-text mj-class="content__text" css-class="social_claim">
+          Banh mi direct trade sus fanny pack DIY
         </mj-text>
       </mj-column>
     </mj-section>
