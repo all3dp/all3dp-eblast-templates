@@ -43,4 +43,5 @@ jobs:
           prerelease: false
           files: |
             README.md
+            LICENSE.md
             .output/*.html
