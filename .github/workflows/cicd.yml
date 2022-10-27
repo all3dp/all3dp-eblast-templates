@@ -15,21 +15,23 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Install nodeJS
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7
+          run_install: false
+
+      - name: Install NodeJS
         uses: actions/setup-node@v3
         with:
           node-version: "16"
-          cache: "yarn"
-
-      - name: Install YARN
-        run: npm install -g yarn@^1
+          cache: "pnpm"
 
       - name: Install dependencies
         run: |
-          yarn --prefer-offline
+          pnpm install
 
       - name: Test
-        run: yarn test
+        run: pnpm run test
 
       - name: Build
-        run: yarn build
+        run: pnpm run build

@@ -5,7 +5,7 @@ This repository contains example templates written in MJML to create mailchimp c
 ## Prerequisits
 
 * NodeJS >= 16
-* Yarn 1.x
+* PNPM 7.x
 * *Recommended:* [Visual Studio Code Extention for MJML](https://marketplace.visualstudio.com/items?itemName=mjmlio.vscode-mjml)
 
 Execute "`yarn add`" to install the nessesary nodejs modules.
@@ -19,9 +19,9 @@ Execute "`yarn add`" to install the nessesary nodejs modules.
 
 The Eblast template are located in the "`/src`-folder". To build all templates execute "`yarn build`". The output of the buildprocess goes to "`/.output`".
 
-- use `yarn dev` to enter MJML watch mode. Template output goes to `/.output`
-- use `yarn test` to validate your templates
-- use `yarn build` to build templates. The output goes to `/.output`
+- use `pnpm dev` to enter MJML watch mode. Template output goes to `/.output`
+- use `pnpm test` to validate your templates
+- use `pnpm build` to build templates. The output goes to `/.output`
 
 ### Templates:
 
