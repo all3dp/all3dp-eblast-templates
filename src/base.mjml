@@ -331,7 +331,7 @@
     <mj-section mj-class="content content--dark">
       <mj-column mj-class="content__wrapper">
         <mj-text mj-class="content__text" css-class="disclaimer_note">
-          This is a commercial email to promote the products or services of Creaform Inc.,
+          This is a commercial email to promote the products or services of ACME Inc.,
           brought to you by *|USER:COMPANY|*. If you'd like to change how you receive these emails you
           can <a href="*|UNSUB|*" target="_blank" style="color: #000; text-decoration: underline;">unsubscribe from this list.</a>
         </mj-text>
