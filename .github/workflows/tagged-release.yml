@@ -1,0 +1,46 @@
+---
+name: "tagged-release"
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  tagged-release:
+    name: "Tagged Release"
+    runs-on: "ubuntu-latest"
+
+    steps:
+
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7
+          run_install: false
+
+      - name: Install NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: |
+          pnpm install
+
+      - name: "Build & test"
+        run: |
+          pnpm test
+          pnpm build
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: |
+            README.md
+            .output/*.html
