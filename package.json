@@ -27,7 +27,7 @@
   },
   "engines": {
     "node": "16.18.0",
-    "pnpm": "7.14.0"
+    "pnpm": "7.18.0"
   },
   "dependencies": {
     "mjml": "^4.13.0"
