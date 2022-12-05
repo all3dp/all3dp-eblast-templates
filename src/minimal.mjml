@@ -54,13 +54,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="content content--dark" full-width padding="0">
-      <mj-column padding="0">
-        <mj-divider border-width="2px" padding="10px 15px" border-style="solid" border-color="lightgrey" width="100%" />
-      </mj-column>
-    </mj-section>
-
-    <mj-section mj-class="content content--dark" full-width>
+    <mj-section mj-class="content" full-width>
       <mj-column mj-class="content__wrapper">
         <mj-text mj-class="content__text" css-class="disclaimer_note">
           This is a commercial email to promote the products or services of ACME Inc.,
@@ -70,7 +64,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="content content--dark" full-width padding-top="10px" padding-bottom="10px">
+    <mj-section mj-class="content" full-width padding-top="10px" padding-bottom="10px">
       <mj-column vertical-align="middle" mj-class="content__wrapper">
         <mj-text mj-class="content__text">
           <strong>Our address is:</strong><br>
