@@ -4,11 +4,11 @@ This repository contains example templates written in MJML to create mailchimp c
 
 ## Prerequisits
 
-* NodeJS >= 16
+* NodeJS >= 16.x
 * PNPM 7.x
 * *Recommended:* [Visual Studio Code Extention for MJML](https://marketplace.visualstudio.com/items?itemName=mjmlio.vscode-mjml)
 
-Execute "`yarn add`" to install the nessesary nodejs modules.
+Execute "`pnpm i`" to install the nessesary nodejs modules.
 
 ## Doc`s:
 
@@ -28,3 +28,4 @@ The Eblast template are located in the "`/src`-folder". To build all templates e
 Templates are based on MJML syntax, see https://mjml.io for details.
 
 *  `basic.mjml` - contains a basic eblast.
+*  `minimal.mjml` - contains a minimal eblast template with a header and footer.
