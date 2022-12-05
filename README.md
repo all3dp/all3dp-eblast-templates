@@ -23,6 +23,10 @@ The Eblast template are located in the "`/src`-folder". To build all templates e
 - use `pnpm test` to validate your templates
 - use `pnpm build` to build templates. The output goes to `/.output`
 
+## Preview changes
+
+To preview your changes first start `pnpm dev` to build the templates and then execute `open .output/[tempalte].html` in a terminal (e.g. `open /Users/username/all3dp-eblast-templates/.output/base.html`) to preview changes in your browser.
+
 ### Templates:
 
 Templates are based on MJML syntax, see https://mjml.io for details.
