@@ -131,7 +131,7 @@
       </mj-style>
   </mj-head>
   <mj-body>
-    <mj-section>
+    <mj-section full-width>
       <mj-column vertical-align="middle">
         <mj-image width="100px" align="left" src="https://via.placeholder.com/100x32/50" css-class="nav_logo" alt="Logo" padding-bottom="0px" padding-left="20px" padding-top="0"></mj-image>
       </mj-column>
@@ -145,13 +145,13 @@
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="content" background-color="#ffffff" padding-bottom="15px">
+    <mj-section mj-class="content" full-width background-color="#ffffff" padding-bottom="15px">
       <mj-column vertical-align="middle">
 
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="content" background-color="#ffffff">
+    <mj-section mj-class="content" full-width background-color="#ffffff">
       <mj-column vertical-align="middle" mj-class="content__wrapper" border-radius="50px 50px 0px 0px" background-color="#f0f2f5">
         <mj-text font-size="30px" font-weight="bold" align="center" color="#000" padding-top="20px" css-class="hero_headline">Say hello to the new ACME 3d</mj-text>
         <mj-spacer height="5px" />
@@ -159,7 +159,7 @@
     </mj-section>
 
 
-    <mj-section mj-class="content" background-color="#ffffff">
+    <mj-section mj-class="content" full-width background-color="#ffffff">
       <mj-column vertical-align="middle">
         <mj-image width="600px" height="389px" padding="0" src="https://via.placeholder.com/600x389/f0f2f5" css-class="hero_image" alt="hero" />
         <mj-spacer height="20px" />
@@ -167,7 +167,7 @@
     </mj-section>
 
 
-    <mj-section mj-class="content" background-color="#ffffff" padding-bottom="25px" padding-left="15px" padding-right="15px">
+    <mj-section mj-class="content" full-width background-color="#ffffff" padding-bottom="25px" padding-left="15px" padding-right="15px">
       <mj-column vertical-align="middle">
         <mj-text line-height="30px" color="#000000" font-size="30px" font-weight="bold" align="center" padding-bottom="20px" css-class="desc_headline">
           Sooooooooooooooo easy
@@ -181,7 +181,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="content" background-color="#ffffff" padding-bottom="15px" padding-left="15px" padding-right="15px">
+    <mj-section mj-class="content" full-width background-color="#ffffff" padding-bottom="15px" padding-left="15px" padding-right="15px">
       <mj-column vertical-align="middle">
 
         <mj-text line-height="22px" color="#646464" font-size="14px" font-weight="bold" padding-bottom="25px" css-class="desc_intro">
@@ -201,13 +201,13 @@
     </mj-section>
 
 
-    <mj-section mj-class="content" background-color="#ffffff" padding-bottom="25px">
+    <mj-section mj-class="content" background-color="#ffffff" padding-bottom="25px" full-width>
       <mj-column vertical-align="middle">
         <mj-button css-class="cta_button" align="center" inner-padding="15px 30px" background-color="#f4b400" color="#fff" border-radius="5px" letter-spacing="1px" font-size="14px" font-weight="bold" href="https://mjml.io" target="_blank" padding-bottom="10px" padding-top="15px">SEE IT IN ACTION</mj-button>
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="content" background-color="#fff4e0" padding-bottom="25px">
+    <mj-section mj-class="content" background-color="#fff4e0" padding-bottom="25px" full-width>
       <mj-group>
         <mj-column padding="15px">
           <mj-image width="249px" height="158px" padding="0" alt="productshot 1" src="https://via.placeholder.com/249x158/50" css-class="details_image_1" />
@@ -223,7 +223,7 @@
       </mj-group>
     </mj-section>
 
-    <mj-section mj-class="content" background-color="#fff4e0" padding-bottom="25px">
+    <mj-section mj-class="content" background-color="#fff4e0" padding-bottom="25px" full-width>
       <mj-group>
         <mj-column padding="25px">
           <mj-text align="left" padding-top="10px" font-size="18px" font-weight="bold" color="#000000" padding-bottom="15px" css-class="details_headline_2">
@@ -239,13 +239,13 @@
       </mj-group>
     </mj-section>
 
-    <mj-section mj-class="content" background-color="#fff4e0">
+    <mj-section mj-class="content" background-color="#fff4e0" full-width>
       <mj-column mj-class="content__wrapper" border-radius="50px 50px 0px 0px" background-color="#fff">
         <mj-text height="50px">&nbsp;</mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="content content--dark">
+    <mj-section mj-class="content content--dark" full-width>
       <mj-column mj-class="content__wrapper" border-radius="0px 0px 50px 50px" background-color="#fff">
 
         <mj-text color="#000" font-size="28px" align="center" font-weight="bold" css-class="features_headline">Freegan roof party!</mj-text>
@@ -279,13 +279,13 @@
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="content content--dark">
+    <mj-section mj-class="content content--dark" full-width>
       <mj-column mj-class="content__wrapper">
         <mj-image width="120px" height="38px" align="center" src="https://via.placeholder.com/120x38/50" alt="Logo" padding-bottom="20px" padding-top="20px" padding-top="0" css-class="footer_logo"></mj-image>
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="content content--dark">
+    <mj-section mj-class="content content--dark" full-width>
       <mj-column mj-class="content__wrapper">
         <mj-text mj-class="content__text" css-class="social_claim">
           Banh mi direct trade sus fanny pack DIY
@@ -293,7 +293,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="content content--dark">
+    <mj-section mj-class="content content--dark" full-width>
       <mj-column mj-class="content__wrapper">
         <mj-social font-size="12px" icon-size="32px" mode="horizontal" padding="5px 10px">
           <mj-social-element name="facebook" href="https://example.com/" target="_blank" alt="facebook" background-color="transparent" src="https://sf-asset-manager.s3.amazonaws.com/96363/590/4358.png"></mj-social-element>
@@ -307,13 +307,13 @@
     </mj-section>
 
 
-    <mj-section mj-class="content content--dark" padding="0">
+    <mj-section mj-class="content content--dark" full-width padding="0">
       <mj-column padding="0">
         <mj-divider border-width="2px" padding="10px 15px" border-style="solid" border-color="lightgrey" width="100%" />
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="content content--dark">
+    <mj-section mj-class="content content--dark" full-width>
       <mj-column mj-class="content__wrapper">
         <mj-text mj-class="content__text">
           Copyright &copy; *|CURRENT_YEAR|* *|USER:COMPANY|*, All rights reserved.
@@ -322,13 +322,13 @@
     </mj-section>
 
 
-    <mj-section mj-class="content content--dark" padding="0">
+    <mj-section mj-class="content content--dark" full-width padding="0">
       <mj-column padding="0">
         <mj-divider border-width="2px" padding="10px 15px" border-style="solid" border-color="lightgrey" width="100%" />
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="content content--dark">
+    <mj-section mj-class="content content--dark" full-width>
       <mj-column mj-class="content__wrapper">
         <mj-text mj-class="content__text" css-class="disclaimer_note">
           This is a commercial email to promote the products or services of ACME Inc.,
@@ -338,7 +338,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="content content--dark" padding-top="10px" padding-bottom="10px">
+    <mj-section mj-class="content content--dark" full-width padding-top="10px" padding-bottom="10px">
       <mj-column vertical-align="middle" mj-class="content__wrapper">
         <mj-text mj-class="content__text">
           <strong>Our address is:</strong><br>
@@ -347,7 +347,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section>
+    <mj-section full-width>
       <mj-column>
         <mj-spacer height="20px" />
       </mj-column>
