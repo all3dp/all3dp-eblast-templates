@@ -1,0 +1,46 @@
+<mjml>
+  <mj-head>
+    <mj-title>*|MC:SUBJECT|*</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Arial" ico-font-family="Arial" />
+
+      <mj-class name="content" padding="0" />
+      <mj-class name="content--white" background-color="#fff" />
+      <mj-class name="content__wrapper" vertical-align="middle" padding="0 15px" />
+      <mj-class name="content__text" align="center" font-size="10px" padding-top="0" color="#646464" line-height="14px" />
+
+      <mj-text padding="0" />
+      <mj-body background-color="#FAFAFA" width="600px" />
+    </mj-attributes>
+
+    <mj-html-attributes>
+
+      <mj-selector path=".disclaimer_note div">
+        <mj-html-attribute name="mc:edit">disclaimer_note</mj-html-attribute>
+      </mj-selector>
+
+    </mj-html-attributes>
+  </mj-head>
+  <mj-body>
+
+    <mj-section mj-class="content" full-width>
+      <mj-column mj-class="content__wrapper">
+        <mj-text mj-class="content__text" css-class="disclaimer_note">
+          This is a commercial email to promote the products or services of ACME Inc.,
+          brought to you by *|USER:COMPANY|*. If you'd like to change how you receive these emails you
+          can <a href="*|UNSUB|*" target="_blank" style="color: #000; text-decoration: underline;">unsubscribe from this list.</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="content" full-width padding-top="10px" padding-bottom="10px">
+      <mj-column vertical-align="middle" mj-class="content__wrapper">
+        <mj-text mj-class="content__text">
+          <strong>Our address is:</strong><br>
+          *|USER:ADDRESS_HTML|*
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

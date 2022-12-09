@@ -4,16 +4,16 @@ This repository contains example templates written in MJML to create mailchimp c
 
 ## Prerequisits
 
-* NodeJS >= 16.x
-* PNPM 7.x
-* *Recommended:* [Visual Studio Code Extention for MJML](https://marketplace.visualstudio.com/items?itemName=mjmlio.vscode-mjml)
+- NodeJS >= 16.x
+- PNPM 7.x
+- _Recommended:_ [Visual Studio Code Extention for MJML](https://marketplace.visualstudio.com/items?itemName=mjmlio.vscode-mjml)
 
 Execute "`pnpm i`" to install the nessesary nodejs modules.
 
-## Docs:
+## Documentation:
 
-* [MJML template syntax](https://documentation.mjml.io/)
-* [Mailchimp merge tags cheat sheet](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/)
+- [MJML template syntax](https://documentation.mjml.io/)
+- [Mailchimp merge tags cheat sheet](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/)
 
 ## Scripts:
 
@@ -31,5 +31,6 @@ To preview your changes first start `pnpm dev` to build the templates and then e
 
 Templates are based on MJML syntax, see https://mjml.io for details.
 
-*  `basic.mjml` - contains a basic eblast.
-*  `minimal.mjml` - contains a minimal eblast template with a header and footer.
+- `basic.mjml` - contains a basic eblast mail template.
+- `minimal.mjml` - contains a minimal eblast template with a header and footer.
+- `footer-only.mjml` - contains the default footer with Mailchimp templates and default wording.
