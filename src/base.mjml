@@ -119,16 +119,16 @@
 
       .desc_keypoints div span {
         border-bottom: solid #f4b400 4px;
-        padding-top:5px;
-        padding-right:0;
+        padding-top: 5px;
+        padding-right: 0;
         padding-bottom: 2px;
-        padding-left:0;
+        padding-left: 0;
         color: #000;
-        font-weight:bold;
+        font-weight: bold;
         font-size: 18px;
         text-decoration: none;
       }
-      </mj-style>
+    </mj-style>
   </mj-head>
   <mj-body>
     <mj-section full-width>
@@ -155,7 +155,7 @@
       <mj-column vertical-align="middle" mj-class="content__wrapper" border-radius="50px 50px 0px 0px" background-color="#f0f2f5">
         <mj-text font-size="30px" font-weight="bold" align="center" color="#000" padding-top="20px" css-class="hero_headline">Say hello to the new ACME 3d</mj-text>
         <mj-spacer height="5px" />
-      </mj-colomn>
+        </mj-colomn>
     </mj-section>
 
 
@@ -163,7 +163,7 @@
       <mj-column vertical-align="middle">
         <mj-image width="600px" height="389px" padding="0" src="https://via.placeholder.com/600x389/f0f2f5" css-class="hero_image" alt="hero" />
         <mj-spacer height="20px" />
-      </mj-colomn>
+        </mj-colomn>
     </mj-section>
 
 
@@ -320,7 +320,6 @@
         </mj-text>
       </mj-column>
     </mj-section>
-
 
     <mj-section mj-class="content content--dark" full-width padding="0">
       <mj-column padding="0">

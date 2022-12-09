@@ -6,7 +6,6 @@
 
       <mj-class name="content" padding="0" />
       <mj-class name="content--white" background-color="#fff" />
-      <mj-class name="content--dark" background-color="#f0f2f5" />
       <mj-class name="content__wrapper" vertical-align="middle" padding="0 15px" />
       <mj-class name="content__text" align="center" font-size="10px" padding-top="0" color="#646464" line-height="14px" />
 
@@ -16,14 +15,6 @@
 
     <mj-html-attributes>
 
-      <mj-selector path=".nav_logo img">
-        <mj-html-attribute name="mc:edit">nav_logo</mj-html-attribute>
-      </mj-selector>
-
-      <mj-selector path=".nav_claim div span">
-        <mj-html-attribute name="mc:edit">nav_claim</mj-html-attribute>
-      </mj-selector>
-
       <mj-selector path=".disclaimer_note div">
         <mj-html-attribute name="mc:edit">disclaimer_note</mj-html-attribute>
       </mj-selector>
@@ -31,28 +22,6 @@
     </mj-html-attributes>
   </mj-head>
   <mj-body>
-
-    <mj-section full-width>
-      <mj-column vertical-align="middle">
-        <mj-image width="100px" align="left" src="https://via.placeholder.com/100x32/50" css-class="nav_logo" alt="Logo" padding-bottom="0px" padding-left="20px" padding-top="0"></mj-image>
-      </mj-column>
-      <mj-column vertical-align="middle">
-        <mj-text align="center" font-size="11px" padding-bottom="0px" padding-top="0" color="#646464" align="center" css-class="nav_claim"><span style="white-space: nowrap;">Meet our 3rd generation of ACME Inc. stuff</span></mj-text>
-      </mj-column>
-      <mj-column vertical-align="middle">
-        <!-- *|IFNOT:ARCHIVE_PAGE|* -->
-        <mj-text align="right" font-size="10px" padding-bottom="0" padding-right="20px" padding-top="0" color="#646464"><a href="*|ARCHIVE|*" target="_blank" style="text-decoration: underline; color: inherit;">View in browser</a></mj-text>
-        <!-- *|END:IF|* -->
-      </mj-column>
-    </mj-section>
-
-    <mj-section full-width>
-      <mj-column padding="0">
-        <mj-text>
-          <div mc:edit="markup">INSERT TEMPLATE HERE</div>
-        </mj-text>
-      </mj-column>
-    </mj-section>
 
     <mj-section mj-class="content" full-width>
       <mj-column mj-class="content__wrapper">
@@ -73,10 +42,5 @@
       </mj-column>
     </mj-section>
 
-    <mj-section>
-      <mj-column>
-        <mj-spacer height="20px" />
-      </mj-column>
-    </mj-section>
   </mj-body>
 </mjml>
