@@ -1,6 +1,6 @@
 {
   "name": "all3dp-eblast-templates",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": "All3DP GmbH",
   "homepage": "https://all3dp.com",
   "private": true,
@@ -14,9 +14,9 @@
   },
   "contributors": [
     {
-      "name" : "Alexander Pirsig",
-      "email" : "alex@vicoli.de",
-      "url" : "https://vicoli.de"
+      "name": "Alexander Pirsig",
+      "email": "alex@vicoli.de",
+      "url": "https://vicoli.de"
     }
   ],
   "scripts": {
