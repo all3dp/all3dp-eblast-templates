@@ -4,7 +4,7 @@ This repository contains example templates written in MJML to create mailchimp c
 
 ## Prerequisits
 
-* NodeJS >= 16.x
+* NodeJS >= 18.x
 * PNPM 7.x
 * *Recommended:* [Visual Studio Code Extention for MJML](https://marketplace.visualstudio.com/items?itemName=mjmlio.vscode-mjml)
 
