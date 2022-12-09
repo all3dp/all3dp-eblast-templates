@@ -10,14 +10,14 @@ This repository contains example templates written in MJML to create mailchimp c
 
 Execute "`pnpm i`" to install the nessesary nodejs modules.
 
-## Doc`s:
+## Docs:
 
 * [MJML template syntax](https://documentation.mjml.io/)
 * [Mailchimp merge tags cheat sheet](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/)
 
 ## Scripts:
 
-The Eblast template are located in the "`/src`-folder". To build all templates execute "`yarn build`". The output of the buildprocess goes to "`/.output`".
+The Eblast template are located in the "`/src`-folder". To build all templates execute "`pnpm build`". The output of the buildprocess goes to "`/.output`".
 
 - use `pnpm dev` to enter MJML watch mode. Template output goes to `/.output`
 - use `pnpm test` to validate your templates
