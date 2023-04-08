@@ -7,8 +7,8 @@ dependencies:
 
 devDependencies:
   mkdirp:
-    specifier: ^1.0.4
-    version: 1.0.4
+    specifier: ^2.1.6
+    version: 2.1.6
   rimraf:
     specifier: ^3.0.2
     version: 3.0.2
@@ -808,8 +808,8 @@ packages:
       - encoding
     dev: false
 
-  /mkdirp@1.0.4:
-    resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
+  /mkdirp@2.1.6:
+    resolution: {integrity: sha512-+hEnITedc8LAtIP9u3HJDFIdcLV2vXP33sqLLIzkv1Db1zO/1OxbvYf0Y1OC/S/Qo5dxHXepofhmxL02PsKe+A==}
     engines: {node: '>=10'}
     hasBin: true
     dev: true
