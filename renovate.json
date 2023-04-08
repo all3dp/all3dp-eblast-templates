@@ -1,6 +1,19 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "timezone": "Europe/Berlin",
+  "schedule": [
+    "every 2 days"
+  ],
   "extends": [
-    "config:base"
+    "github>nuxt/renovate-config-nuxt",
+    ":labels(dependencies,devops)",
+    ":maintainLockFilesWeekly",
+    ":enableVulnerabilityAlerts",
+    ":automergeLinters",
+    ":automergeTypes",
+    ":automergeMinor"
+  ],
+  "baseBranches": [
+    "main"
   ]
 }
