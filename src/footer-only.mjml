@@ -23,6 +23,10 @@
   </mj-head>
   <mj-body>
 
+    <mj-raw>
+      <div mc:edit="markup">INSERT TEMPLATE HERE</div>
+    </mj-raw>
+
     <mj-section mj-class="content" full-width>
       <mj-column mj-class="content__wrapper">
         <mj-text mj-class="content__text" css-class="disclaimer_note">
