@@ -33,7 +33,7 @@
     "mjml": "^4.13.0"
   },
   "devDependencies": {
-    "mkdirp": "^1.0.4",
+    "mkdirp": "^2.1.6",
     "rimraf": "^3.0.2"
   }
 }
