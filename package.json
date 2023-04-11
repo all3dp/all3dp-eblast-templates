@@ -30,7 +30,7 @@
     "pnpm": "8.x"
   },
   "dependencies": {
-    "mjml": "^4.14.0"
+    "mjml": "^4.14.1"
   },
   "devDependencies": {
     "mkdirp": "^2.1.6",
