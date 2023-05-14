@@ -346,7 +346,7 @@ packages:
       fs.realpath: 1.0.0
       minimatch: 8.0.4
       minipass: 4.2.8
-      path-scurry: 1.7.0
+      path-scurry: 1.9.0
     dev: true
 
   /he@1.2.0:
@@ -890,8 +890,8 @@ packages:
       lower-case: 1.1.4
     dev: false
 
-  /node-fetch@2.6.9:
-    resolution: {integrity: sha512-DJm/CJkZkRjKKj4Zi4BsKVZh3ValV5IR5s7LVZnW+6YMh0W1BfNA8XSs6DLMGYlId5F3KnA70uu2qepcR08Qqg==}
+  /node-fetch@2.6.11:
+    resolution: {integrity: sha512-4I6pdBY1EthSqDmJkiNk3JIT8cswwR9nfeW/cPdUagJYEQG7R95WRH74wpz7ma8Gh/9dI9FP+OU+0E4FvtA55w==}
     engines: {node: 4.x || >=6.0.0}
     peerDependencies:
       encoding: ^0.1.0
@@ -951,8 +951,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /path-scurry@1.7.0:
-    resolution: {integrity: sha512-UkZUeDjczjYRE495+9thsgcVgsaCPkaw80slmfVFgllxY+IO8ubTsOpFVjDPROBqJdHfVPUFRHPBV/WciOVfWg==}
+  /path-scurry@1.9.0:
+    resolution: {integrity: sha512-KLejx+14koDZLnb3JNDZbjcmHC/IO2Imd3rNoyt5mynieVd+MT4b1aaGaXAHw06H3P+aZ3Q+56VKJ6BCHMO3WA==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
       lru-cache: 9.1.1
@@ -1069,7 +1069,7 @@ packages:
       escape-goat: 3.0.0
       htmlparser2: 5.0.1
       mime: 2.6.0
-      node-fetch: 2.6.9
+      node-fetch: 2.6.11
       valid-data-url: 3.0.1
     transitivePeerDependencies:
       - encoding
