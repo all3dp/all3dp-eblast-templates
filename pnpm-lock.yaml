@@ -434,9 +434,9 @@ packages:
     engines: {node: '>=0.12.0'}
     dev: false
 
-  /js-beautify@1.14.7:
-    resolution: {integrity: sha512-5SOX1KXPFKx+5f6ZrPsIPEY7NwKeQz47n3jm2i+XeHx9MoRsfQenlOP13FQhWvg8JRS0+XLO6XYUQ2GX+q+T9A==}
-    engines: {node: '>=10'}
+  /js-beautify@1.14.8:
+    resolution: {integrity: sha512-4S7HFeI9YfRvRgKnEweohs0tgJj28InHVIj4Nl8Htf96Y6pHg3+tJrmo4ucAM9f7l4SHbFI3IvFAZ2a1eQPbyg==}
+    engines: {node: '>=12'}
     hasBin: true
     dependencies:
       config-chain: 1.1.13
@@ -474,8 +474,8 @@ packages:
       yallist: 2.1.2
     dev: false
 
-  /lru-cache@9.1.1:
-    resolution: {integrity: sha512-65/Jky17UwSb0BuB9V+MyDpsOtXKmYwzhyl+cOa9XUiI4uV2Ouy/2voFP3+al0BjZbJgMBD8FojMpAf+Z+qn4A==}
+  /lru-cache@9.1.2:
+    resolution: {integrity: sha512-ERJq3FOzJTxBbFjZ7iDs+NiK4VI9Wz+RdrrAB8dio1oV+YvdPzUEE4QNiT2VD51DkIbCYRUUzCRkssXCHqSnKQ==}
     engines: {node: 14 || >=16.14}
     dev: true
 
@@ -567,7 +567,7 @@ packages:
       chokidar: 3.5.3
       glob: 7.2.3
       html-minifier: 4.0.0
-      js-beautify: 1.14.7
+      js-beautify: 1.14.8
       lodash: 4.17.21
       mjml-core: 4.14.1
       mjml-migrate: 4.14.1
@@ -595,7 +595,7 @@ packages:
       cheerio: 1.0.0-rc.12
       detect-node: 2.1.0
       html-minifier: 4.0.0
-      js-beautify: 1.14.7
+      js-beautify: 1.14.8
       juice: 9.0.0
       lodash: 4.17.21
       mjml-migrate: 4.14.1
@@ -730,7 +730,7 @@ packages:
     hasBin: true
     dependencies:
       '@babel/runtime': 7.22.3
-      js-beautify: 1.14.7
+      js-beautify: 1.14.8
       lodash: 4.17.21
       mjml-core: 4.14.1
       mjml-parser-xml: 4.14.1
@@ -959,7 +959,7 @@ packages:
     resolution: {integrity: sha512-qSDLy2aGFPm8i4rsbHd4MNyTcrzHFsLQykrtbuGRknZZCBBVXSv2tSCDN2Cg6Rt/GFRw8GoW9y9Ecw5rIPG1sg==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
-      lru-cache: 9.1.1
+      lru-cache: 9.1.2
       minipass: 6.0.2
     dev: true
 
