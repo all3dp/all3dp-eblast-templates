@@ -26,8 +26,8 @@
     "dev": "pnpm run clean && mjml -w ./src/*.mjml -o ./.output/"
   },
   "engines": {
-    "node": "18.x",
-    "pnpm": "8.x"
+    "node": "18.20.2",
+    "pnpm": "8.15.7"
   },
   "dependencies": {
     "mjml": "^4.15.3"
