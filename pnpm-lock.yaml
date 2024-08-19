@@ -472,8 +472,8 @@ packages:
     engines: {node: '>=14'}
     dev: false
 
-  /juice@10.0.0:
-    resolution: {integrity: sha512-9f68xmhGrnIi6DBkiiP3rUrQN33SEuaKu1+njX6VgMP+jwZAsnT33WIzlrWICL9matkhYu3OyrqSUP55YTIdGg==}
+  /juice@10.0.1:
+    resolution: {integrity: sha512-ZhJT1soxJCkOiO55/mz8yeBKTAJhRzX9WBO+16ZTqNTONnnVlUPyVBIzQ7lDRjaBdTbid+bAnyIon/GM3yp4cA==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
@@ -602,7 +602,7 @@ packages:
       detect-node: 2.1.0
       html-minifier: 4.0.0
       js-beautify: 1.15.1
-      juice: 10.0.0
+      juice: 10.0.1
       lodash: 4.17.21
       mjml-migrate: 4.15.3
       mjml-parser-xml: 4.15.3
